@@ -5,12 +5,12 @@
     <title>tacos</title>
 </head>
 <body>
-    <h1>Tacos</h1>
+    <p class="heading"><h1>Tacos</h1></p>
     <img src="https://www.allrecipes.com/thmb/gmCDGTcm8dgPLS0GPe9xcx_0FZU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7511180-Fried-Beef-Tacos-DDMFS-4x3-5398-f776a5acf7b043708a88be05f8eb1af5.jpg">
     <p> description </p>
     <p><h4><strong>the tacos is</strong> a tortilla filled with various ingredients, as beans, rice, chopped meat, cheese, and tomatoes, and folded over in half or rolled into a loose cylinder shape</h4></p>
     <p>Indulge in the mouthwatering delight of our savory and satisfying taco recipe. These tacos are a fusion of flavors and textures, combining tender protein, crisp vegetables, zesty sauces, and warm tortillas to create a culinary masterpiece that will please your taste buds.</p>
-    <h2>Ingredients</h2>
+    <div class="ing"><h2>Ingredients</h2>
     <ul>
         <li>Hard Taco Shells.</li>
         <li>soft Corn/Flour Tortillas.</li>
@@ -21,6 +21,7 @@
         <li>Onion</li>
         <li>Pico de Gallo.</li>
     </ul>
+    </div>
     <p><h2>steps</h2></p>
     <ol>
         <li>First place a skillet on your stovetop and add about 1 Tbsp. of olive oil to it, set the stovetop to medium heat (350F 176C). You can actually leave it out because the meat has fat in it, but I always like to add it for a bit of flavor. Now let's combine all of our spices in a bowl and whisk them together. I recommend trying the recipe out as is first and then you can adjust according to your tastes the next time. :) Next let's bring our ground beef, spices, and tomato sauce over to the stove.</li>
@@ -30,6 +31,53 @@
         <li>Now we need to cut up all of our toppings for our tacos. You can use individual bowls for each topping or use a cool taco platter. I have this cool ceramic taco platter that I like. Some toppings I really like using are diced tomatoes, lettuce, peppers, cheddar cheese, sour cream, and of course homemade guacamole. For the shells, I am using corn tortillas, but also like the corn hard shells, or flour tortillas.</li>
         <li>Now let's add whatever toppings we like to our tortillas. I pretty much added all of them, went very light on the jalapeños...yes I am a wimp when it comes to heat/spicy. lol. Enjoy! You know you want to have an awesome taco party now don't you? :)</li>
     </ol>
+    <div class="flex container">
+        <div class="site1"><a href="file:///home/haddi/repos/odi-recipes/index.html"><img src="https://cdn5.vectorstock.com/i/1000x1000/37/34/home-sign-icon-main-page-button-navigation-vector-2873734.jpg"></a></div>
+        <div class="site2"><a href="file:///home/haddi/repos/odi-recipes/recipes/rice.html"><img src="https://www.onceuponachef.com/images/2014/10/jasmine-rice-1.jpg"></a></div>
+    </div>
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/premium-vector/taco-seamless-pattern-traditional-mexican-food-background_53734-90.jpg?w=2000);
+            color: blue;
+            text-align: center ;
+
+        }
+        h1{
+            text-align:left;
+            background-image: url(https://wallpaperkenya.co.ke/wp-content/uploads/2019/04/FA881602.jpg);
+            height:60px;
+            margin:-15px;
+            text-align: center;
+            color: black;
+        }
+        .ing{
+            background-image: url(https://wallpaperkenya.co.ke/wp-content/uploads/2019/04/FA881602.jpg);
+            height: 200px;
+            color: black;
+        }
+        .ing>h2{
+            color: black;
+            background-image: url(https://wallpaperkenya.co.ke/wp-content/uploads/2019/04/FA881602.jpg);
+            width: 300px;
+        }
+        img{
+            height: 300px;
+            background: burlywood;
+        }
+        div.flex.container{
+            display: flex;
+            flex-direction: row;
+            width: 600px;
+            height: 600px
+        }
+        div.flex.container>div.site2{
+            padding-left: 200px;
+        }
+        div.flex.container>div.site1{
+            padding-left: 30px;
+        }
+
+    </style>
 
 </body>
 </html>
